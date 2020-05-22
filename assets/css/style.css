@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* ==========================================================================
+   1. CSS Reset Code
+   ========================================================================== */
+
+/* 1.1. Eric Meyers Reset
+   http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+   ========================================================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
+ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
+figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { display: block; }
+
+/* Force scrollbar */
+html { overflow-y: scroll; }
+
+/* Align radios and text inputs with their label */
+
+input[type='radio'] { vertical-align: text-bottom; }
+
+/* Hand cursor on clickable input elements */
+label,
+input[type='button'],
+input[type='submit'],
+button { cursor: pointer; }
+
+strong {
+  font-weight: bold;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+em { font-style: italic; }
+
+img {
+  width: 100%;
+  border: 0;
+  vertical-align: middle;
+}
+
+sub,
+sup {
+  vertical-align: baseline;
+  position: relative;
+  font-size: 55%;
+  line-height: 0;
+}
+
+sup { top: -.7em; }
+sub { bottom: -.25em; }
+
+/* 1.2. Clear Fix
+   ========================== */
+
+.cf:before,
+.cf:after {
+  display: table;
+  content: " ";
+}
+
+.cf:after { clear: both; }
+.cf { *zoom: 1; }
+
+/*for all*/
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a { 
+  display: inline-block;
+  text-decoration: none; 
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+}
+/* Common styling */
+.grey { color: #666; }
+.cap { text-transform: capitalize; }
+.up { text-transform: uppercase; }
+.center { text-align: center; }
+.bold { font-weight: bold; }
+.transition { transition: 1s all ease; }
+
+/*for wrapper*/
+.wrapper {
+  max-width: 1350px;
+  width: 90%; 
+  margin: 0 auto;
+}
+/*=================================
+  Header styling starts here
+=================================*/
+.container { background-color: #e1eef1; }
+
+header { padding: 50px 0; }
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  text-transform: capitalize;
+}
+/*=================================
+  Header styling ends here
+=================================*/  
+
+/*=================================
+  main styling starts here
+=================================*/
+.days-container {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.days-container li {
+  height: 250px;
+  border: 1px solid #acacac;
+  border-radius: 6px 6px 0 0;
+  background-color: #fff;
+  flex-basis: 13.5%; 
+}
+
+.days-container h2 {
+  padding: 15px 10px;
+  border-radius: 6px 6px 0 0;
+  background-color: #b37df0;
+  color: #eeecec;
+  font-size: 20px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.days-container li span {
+  width: 50px;
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+form {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #d6d6d6;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+textarea {
+  width: 100%;
+  height: 400px;
+  flex-basis: 60%;
+}
+
+.user-field {
+  flex-basis: 35%;
+}
+
+.user-field > span {
+  margin-bottom: 5px;
+  display: block;
+  font-size: 25px;
+  color: #666;
+  text-transform: capitalize;
+}
+
+.year-input {
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.year-input input{
+  width: 100%;
+  padding: 10px 5px;
+}
+
+.error-msg {
+  display: block;
+  color: rgb(255, 95, 95);
+  font-size: 15px;
+}
+
+.disable {
+  display: none;
+}
+
+button {
+  padding: 10px 5%;
+  border: none;
+  border-radius: 6px;
+  background-color: #008cff;
+  color: #d4daf8;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: .3s ease;
+}
+
+button:hover {
+  background-color: #d4daf8;
+  color: #008cff;
+}
+
+main { padding-bottom: 100px; }
+
+
+
+
+
+/*=================================
+  main styling ends here
+=================================*/
+
+/*=================================
+  footer styling starts here
+=================================*/ 
+
+
+
+
+
+
+
+ /*=================================
+  footer styling ends here
+=================================*/ 
+
+/*media query starts*/
+/*media query for 995px starts here*/
+@media only screen and (max-width: 995px) {
+
+
+
+}  
